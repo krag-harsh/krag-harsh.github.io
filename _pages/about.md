@@ -6,7 +6,6 @@ subtitle: ML Research Intern, <a href="https://team.inria.fr/robotlearn/" target
 
 profile:
   align: right
-  image: ""
   image_circular: false
   more_info: >
     <p>INRIA Grenoble</p>
