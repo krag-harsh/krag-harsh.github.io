@@ -1,0 +1,166 @@
+cv:
+  name: Harsh Kumar Agarwal
+  label: ML Researcher
+  email: Harsh-Kumar.Agarwal@inria.fr
+  location: Grenoble, France
+  image: ""
+  summary: ML researcher working on generative models, multimodal learning, and embodied AI. Currently pursuing a Master's in Artificial Intelligence at ENSIMAG/UFR IM²AG and conducting thesis research at INRIA Grenoble.
+
+  social_networks:
+    - network: LinkedIn
+      username: harsh-kumar-agarwal-b8bb92187
+    - network: GitHub
+      username: krag-harsh
+
+  sections:
+    Education:
+      - institution: ENSIMAG and UFR IM²AG
+        location: Grenoble, France
+        url: https://ensimag.grenoble-inp.fr/
+        area: Artificial Intelligence
+        studyType: Master of Science
+        start_date: 2025-09
+        end_date: 2026-08
+
+      - institution: Indraprastha Institute of Information Technology Delhi
+        location: New Delhi, India
+        url: https://www.iiitd.ac.in/
+        area: "Computer Science, Specialization: BioScience"
+        studyType: Bachelor of Technology
+        start_date: 2019-08
+        end_date: 2023-05
+        score: "8.83 / 10"
+        highlights:
+          - "GPA: 8.83 / 10"
+
+    Experience:
+      - company: INRIA Grenoble
+        position: ML Research Intern — RobotLearn Team
+        location: Grenoble, France
+        url: https://team.inria.fr/robotlearn/
+        start_date: 2026-02
+        end_date: present
+        summary: "Master's Thesis. Adviser: Dr. Xavier Alameda-Pineda."
+        highlights:
+          - "Flow-Matching Models for Multimodal Action Generation: Developing generative architectures that integrate visual, auditory, and linguistic inputs to produce robot actions conditioned on emotional context."
+          - "Implementing flow-matching decoders with cross-attention mechanisms to leverage Qwen-3 Omni audio responses for embodied robotic decision making and control."
+          - "Training on BEAT2 dataset (SMPL-X body and FLAME facial representations)."
+
+      - company: IBM
+        position: Software/Firmware Developer
+        location: Bangalore, India
+        start_date: 2023-07
+        end_date: 2025-07
+        highlights:
+          - "Redundant BMC Architecture: Designed and implemented redundant Baseboard Management Controller (BMC) for POWER server systems. Expertise in low-level system robustness and fault tolerance."
+          - "PEL Parser Porting: Ported Platform Event Log (PEL) parser from C++ to Python, enabling cross-system deployment and improving code maintainability."
+
+      - company: VISION Lab, IIIT Delhi
+        position: Undergraduate Researcher
+        location: New Delhi, India
+        start_date: 2022-01
+        end_date: 2023-04
+        summary: "Adviser: Dr. Saket Anand."
+        highlights:
+          - "AI for Agriculture — Multi-Spectral Satellite Image Analysis: Analyzed crop parameters using multi-spectral satellite imagery via Google Earth Engine. Applied semi-supervised learning techniques; published dataset paper at WACV 2024."
+          - "Hierarchical Semi-Supervised Image Classification: Extended HierMatch architecture to handle hierarchical label structures with unlabeled data at different hierarchy levels."
+
+      - company: TCS Research
+        position: ML Research Intern
+        location: Remote
+        start_date: 2022-05
+        end_date: 2022-07
+        highlights:
+          - "Self-Supervised Learning for Mitotic Cell Recognition: Predicted cancer stages via cell division counting. Applied DINO to learn robust single-cell image features without extensive manual annotation."
+
+      - company: STAQU Technologies
+        position: ML Research Intern
+        location: Remote
+        start_date: 2021-06
+        end_date: 2021-08
+        highlights:
+          - "Transformer-Based Action Recognition: Fine-tuned TimeSformer for video clip classification with real-time processing on streaming data."
+          - "Novel Object Detection from CCTV: Developed change-detection system using image differencing, deployed on streaming video."
+          - "Car Color Classification: Built k-NN classifier for 12-color car classification achieving ~80% accuracy."
+
+    Publications:
+      - title: "SICKLE: A Multi-Sensor Satellite Imagery Dataset Annotated With Multiple Key Cropping Parameters"
+        authors:
+          - Depanshu Sani
+          - Sandeep Mahato
+          - Sourabh Saini
+          - Harsh Kumar Agarwal
+          - Charu Chandra Devshali
+          - Saket Anand
+          - Gaurav Arora
+          - Thiagarajan Jayaraman
+        publisher: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024"
+        releaseDate: 2024-01
+        url: https://openaccess.thecvf.com/content/WACV2024/html/Sani_SICKLE_A_Multi-Sensor_Satellite_Imagery_Dataset_Annotated_With_Multiple_Key_WACV_2024_paper.html
+        summary: "Accepted for oral presentation. Multi-spectral satellite dataset for key cropping parameters at 3m, 10m, and 30m resolutions."
+
+      - title: "Cross-Cultural Recipe Transformation Via Neural Network and Encoder-Based Models"
+        authors:
+          - Vibhuti Dhar Khanduri
+          - Mansi Goel
+          - Lakshay Dabas
+          - Harsh Kumar Agarwal
+        publisher: "IEEE International Conference on Data Mining Workshops (ICDMW) 2025"
+        releaseDate: 2025-01
+        url: ""
+
+    Skills:
+      - name: Programming Languages
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, C++, Java, Bash — emphasis on PyTorch and GPU-accelerated training"
+
+      - name: ML/DL Frameworks
+        level: Expert
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, Scikit-learn, NumPy, Pandas, MATLAB"
+
+      - name: Research Areas
+        icon: fa-solid fa-flask
+        keywords: "Generative Models (Flow-Matching, Diffusion), Multimodal Learning, Self-Supervised Learning (DINO), Computer Vision, Vision Transformers, Audio Processing"
+
+      - name: Coursework
+        icon: fa-solid fa-book
+        keywords: "Generative and Multimodal AI, Advanced Machine Learning, Computer Vision, NLP/LLMs, Explainable AI, Linear Algebra, Data Structures & Algorithms, Network Biology"
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+      - name: Hindi
+        summary: "Native"
+
+    Projects:
+      - name: "Cuisine Transformation via Semantic Recipe Embeddings"
+        summary: "Developed a neural network classifier for cuisine type identification from recipes. Created an unsupervised ingredient substitution method via semantic embeddings, achieving 90% accuracy in cuisine preservation after transformation. Published at ICDMW 2025."
+        start_date: 2022-08
+        end_date: 2022-12
+
+      - name: "Bird Species Classification from Audio"
+        summary: "End-to-end audio classification pipeline using Mel-Spectrograms and deep learning. Achieved 70% accuracy on bird species identification. Code available on GitHub."
+        start_date: 2022-03
+        end_date: 2022-05
+        url: https://github.com/krag-harsh/ML-proj
+
+    Academic Service:
+      - company: IIIT Delhi
+        position: "Teaching Assistant — Computer Vision"
+        location: New Delhi, India
+        start_date: 2023-01
+        end_date: 2023-05
+
+      - company: IIIT Delhi
+        position: Student Mentor
+        location: New Delhi, India
+        start_date: 2022-01
+        end_date: 2022-08
+
+      - company: "BioBytes Computational Biology Club, IIIT Delhi"
+        position: Publicity Head
+        location: New Delhi, India
+        start_date: 2020-08
+        end_date: 2022-05
